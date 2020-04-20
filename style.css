@@ -1,15 +1,23 @@
-body{
-    background: lightgray;
+body {
+    background: #fefefe;
 }
-section{
+
+section {
     background: white;
 }
+
 h1 {
     color: blue;
 }
-p{
-    color:#c1cbd1;
+
+h2 {
+    color: 1460AA;
 }
-h2{
+
+p {
+    color: #c1cbd1;
+}
+
+h2 {
     color: cornflowerblue;
 }
