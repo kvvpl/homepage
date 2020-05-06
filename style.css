@@ -1,23 +1,48 @@
-body {
-    background: #fefefe;
+.body {
+  background: #fefefe;
+  width: 1000px;
+  margin: auto;
 }
 
-section {
-    background: white;
+.main__header--h1 {
+  color: blue;
 }
 
-h1 {
-    color: blue;
+.main__header--h2 {
+  color: cornflowerblue;
 }
 
-h2 {
-    color: 1460AA;
+.main__header--p {
+  color: #c1cbd1;
 }
 
-p {
-    color: #c1cbd1;
+.main__section {
+  background: white;
 }
 
-h2 {
-    color: cornflowerblue;
+.main__section--h2 {
+  color: 1460aa;
+}
+
+.main__header--article-p {
+  color: #c1cbd1;
+}
+
+.navigation {
+  background: yellowgreen;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+.navigation__link--homepage {
+  color: black;
+  background: yellow;
+}
+.main__section--js {
+  color: hotpink;
 }
