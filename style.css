@@ -40,16 +40,38 @@ html {
   color: #c1cbd1;
 }
 
+.header{
+  
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 60px;
+}
+
+.button{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background: none;
+}
 .navigation {
   /* background: yellowgreen; */
   padding: 16px;
   border-radius: 8px;
+  display: none;
+}
+
+.navigation__open{
+  display: block;
 }
 
 .navigation__link {
-  color: white;
-  display: inline-block;
+  color: black;
+  display: block;
   margin-right: 20px;
+  padding: 0 0 16px 0;
 }
 .navigation__link--homepage {
   color: black;
@@ -57,4 +79,39 @@ html {
 }
 .main__section--js {
   color: hotpink;
+}
+
+.main{
+  margin-top: 70px;
+}
+
+@media (min-width: 760px ){
+  .navigation {
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    margin: auto;
+  }
+
+  .navigation__link {
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .header{
+    display: flex;
+    background: white; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+  }
+
+  .main{
+    margin-top: 70px;
+  }
+  .button{
+    display: none;
+  }
 }
