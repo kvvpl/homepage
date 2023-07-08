@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/kvvpl/homepage#readme",
   "devDependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^9.0.0"
   }
 }
